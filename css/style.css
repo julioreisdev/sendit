@@ -1,0 +1,116 @@
+html body .login form div a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0 !important;
+  padding: 0.3rem 0.5rem; }
+
+html body .login form input {
+  width: 80%;
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-bottom: 1px solid #0dc4ce;
+  color: #0dc4ce; }
+
+html body .login form div a, html body .login form #submit {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  font-weight: bold;
+  border-radius: 1px;
+  color: #0dc4ce;
+  text-transform: uppercase;
+  transition: 0.2s;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  letter-spacing: 4px; }
+
+html body .login form div a:hover, html body .login form #submit:hover {
+  background: #0dc4ce;
+  color: #fff;
+  box-shadow: 0 0 5px #03e9f4, 0 0 2px #03e9f4, 0 0 40px #03e9f4, 0 0 40px #03e9f4; }
+
+html body {
+  font-family: 'Ubuntu', sans-serif;
+  background-image: url("../static/img/branchs.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  html body .login form div a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0 !important;
+    padding: 0.3rem 0.5rem; }
+  html body .login form input {
+    width: 80%;
+    padding: 0.25rem 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 1px solid #0dc4ce;
+    color: #0dc4ce; }
+  html body .login form div a, html body .login form #submit {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-weight: bold;
+    border-radius: 1px;
+    color: #0dc4ce;
+    text-transform: uppercase;
+    transition: 0.2s;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    letter-spacing: 4px; }
+  html body .login form div a:hover, html body .login form #submit:hover {
+    background: #0dc4ce;
+    color: #fff;
+    box-shadow: 0 0 5px #03e9f4, 0 0 2px #03e9f4, 0 0 40px #03e9f4, 0 0 40px #03e9f4; }
+  html body .login {
+    width: 60%;
+    margin: 10% auto 0 auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 0 3px #1c506e;
+    color: #fdfdfd;
+    padding: 1rem;
+    border-radius: 3px; }
+    html body .login form {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      html body .login form img {
+        width: 40px;
+        margin-bottom: 2rem; }
+      html body .login form #submit {
+        width: 35%; }
+        html body .login form #submit:hover {
+          cursor: pointer; }
+      html body .login form div {
+        width: 100%;
+        display: flex;
+        justify-content: space-between; }
+  @media (max-width: 900px) {
+    html body .login {
+      width: 80%; } }
+  @media (max-width: 480px) {
+    html body .login {
+      width: 100%;
+      box-shadow: none;
+      margin: 0;
+      border-radius: 0; }
+      html body .login form label {
+        font-size: 1.5rem; }
+      html body .login form input {
+        padding: 0.5rem; }
+      html body .login form #submit {
+        width: 80%; }
+      html body .login form div {
+        width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */

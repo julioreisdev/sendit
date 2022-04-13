@@ -1,0 +1,60 @@
+%link-submit-blue {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0 !important;
+    padding: 0.3rem 0.5rem;
+    @extend %button-neon01;
+
+    &:hover {
+        @extend %button-neon01hover;
+    }
+}
+
+%input {
+    width: 80%;
+    padding: 0.25rem 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 1px solid #0dc4ce;
+    color: #0dc4ce;
+}
+
+%button-neon01 {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-weight: bold;
+    border-radius: 1px;
+    color: #0dc4ce;
+    text-transform: uppercase;
+    transition: 0.2s;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    letter-spacing: 4px
+}
+
+%button-neon01hover {
+    background: #0dc4ce;
+    color: #fff;
+    box-shadow: 0 0 5px #03e9f4,
+        0 0 2px #03e9f4,
+        0 0 40px #03e9f4,
+        0 0 40px #03e9f4;
+}
+
+@mixin background-image($url) {
+    background-image: url($url);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@mixin flex($first-property, $first-value, $second-property, $second-value) {
+    display: flex;
+    #{$first-property}: #{$first-value};
+    #{$second-property}: #{$second-value};
+}

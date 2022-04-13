@@ -1,0 +1,11 @@
+@import 'utility';
+
+html {
+    body {
+        font-family: 'Ubuntu', sans-serif;
+
+        @include background-image('../static/img/branchs.gif');
+
+        @import 'login';
+    }
+}
