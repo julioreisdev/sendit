@@ -35,7 +35,7 @@ html body .login form div a:hover, html body .login form #submit:hover {
 
 html body {
   font-family: 'Ubuntu', sans-serif;
-  background-image: url("../static/img/branchs.gif");
+  background-image: url("../static/img/background.gif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -78,7 +78,8 @@ html body {
     box-shadow: 0 0 3px #1c506e;
     color: #fdfdfd;
     padding: 1rem;
-    border-radius: 3px; }
+    border-radius: 3px;
+    animation: surgir 1s linear; }
     html body .login form {
       width: 100%;
       display: flex;
@@ -95,6 +96,29 @@ html body {
         width: 100%;
         display: flex;
         justify-content: space-between; }
+@keyframes surgir {
+  0% {
+    opacity: 0; }
+  10% {
+    opacity: 0.1; }
+  20% {
+    opacity: 0.2; }
+  30% {
+    opacity: 0.3; }
+  40% {
+    opacity: 0.4; }
+  50% {
+    opacity: 0.5; }
+  60% {
+    opacity: 0.6; }
+  70% {
+    opacity: 0.7; }
+  80% {
+    opacity: 0.8; }
+  90% {
+    opacity: 0.9; }
+  100% {
+    opacity: 1; } }
   @media (max-width: 900px) {
     html body .login {
       width: 80%; } }
@@ -104,8 +128,6 @@ html body {
       box-shadow: none;
       margin: 0;
       border-radius: 0; }
-      html body .login form label {
-        font-size: 1.5rem; }
       html body .login form input {
         padding: 0.5rem; }
       html body .login form #submit {

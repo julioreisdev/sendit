@@ -4,7 +4,7 @@ html {
     body {
         font-family: 'Ubuntu', sans-serif;
 
-        @include background-image('../static/img/branchs.gif');
+        @include background-image('../static/img/background.gif');
 
         @import 'login';
     }
